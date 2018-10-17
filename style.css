@@ -5,7 +5,9 @@ body {
 section{
     background-color: lightgrey;
     width:50%;
+    padding: 2em;
     margin:auto;
+    border:.25em dashed darkmagenta;
 }
 
 section h2{
@@ -23,17 +25,23 @@ section h3{
 section p, li{
     color:crimson;
     font-size:1.5em;
+    text-align:justify;
 }
 
-.nav ul{
+.nav {
     list-style-type: none;
     float: right;
+    position: fixed;
+    top: 5em;
+    left: 85%;
+    width: 15%;
+    padding:0;
 }
 
 .nav li{
     background-color: skyblue;
     padding: 1em 1.5em;
-    border: .25em solid black;
+    border: .25em solid navy;
     width: 6em;
     text-align:left;
 }
@@ -41,18 +49,6 @@ section p, li{
 .nav a{
     font-weight: 900;
     font-size: 1.5em;
-}
-
-.intro{
-    width:50%;
-    padding: 2em;
-    border:.25em dashed darkmagenta;
-}
-
-.myfriend{
-    width:50%;
-    padding: 2em;
-    border:.25em dashed purple;
 }
 
 .friend{
@@ -81,4 +77,64 @@ section p, li{
     width:100%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.protrait{
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:0;
+    padding: .25em;
+    background-color: black;
+}
+
+.name{
+    text-align:center;
+    font-size: 3.5em;
+    font-family: fantasy italic;
+    color:darkgreen;
+    width:40%;
+    margin-left:30%;
+    margin-right:30%;
+    background-color: grey;
+    border:2px solid black;
+    padding: .25em;
+}
+
+.info{
+    width:50%;
+    list-style: none;
+    margin:auto;
+    
+}
+
+.info li{
+    color:greenyellow;
+    background-color: grey;
+    padding: .5em;
+}
+
+.nested {
+    color:blue;
+    font-size:.5em;
+    list-style-type: circle;
+}
+
+.vid  {
+    width:100%;
+    border:.2em solid yellow;
+}
+
+.hobbyimg {
+    width:100%;
+    border:.2em solid black;
+}
+
+.smalltext {
+    font-size:1em;
+    color:grey;
+    text-align:right;
+    padding:none;
+    margin:none;
+    float:center;
 }
