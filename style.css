@@ -1,0 +1,84 @@
+body {
+    background-color:black;
+}
+
+section{
+    background-color: lightgrey;
+    width:50%;
+    margin:auto;
+}
+
+section h2{
+    font-size:3.5em;
+    font-weight: 800;
+    color:maroon;
+}
+
+section h3{
+    font-size:2.5em;
+    font-weight: 800;
+    color:maroon;
+}
+
+section p, li{
+    color:crimson;
+    font-size:1.5em;
+}
+
+.nav ul{
+    list-style-type: none;
+    float: right;
+}
+
+.nav li{
+    background-color: skyblue;
+    padding: 1em 1.5em;
+    border: .25em solid black;
+    width: 6em;
+    text-align:left;
+}
+
+.nav a{
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.intro{
+    width:50%;
+    padding: 2em;
+    border:.25em dashed darkmagenta;
+}
+
+.myfriend{
+    width:50%;
+    padding: 2em;
+    border:.25em dashed purple;
+}
+
+.friend{
+    background-color: grey;
+    width: 400px;
+    padding: 1em 2em;
+    margin:auto;
+    border: .5em solid black;
+}
+
+.friend h3{
+    font-size:2em;
+    text-align: center;
+    color: navy;
+ }
+
+ .friend p{
+    font-size:1.25em;
+    text-align: justify;
+    color: lightskyblue;
+ }
+
+.friendpic{
+    display: block;
+    height:auto;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
