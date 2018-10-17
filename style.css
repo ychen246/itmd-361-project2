@@ -136,5 +136,18 @@ section p, li{
     text-align:right;
     padding:none;
     margin:none;
-    float:center;
+}
+
+.recommendation {
+    margin-left:4em;
+    width:15em;
+}
+
+.recommendation li{
+    color:yellow;
+    background-color:grey;
+    width: 7.5em;
+    padding:.1em;
+    text-align:center;
+    list-style-image: url('media/star.png');
 }
