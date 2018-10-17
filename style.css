@@ -134,8 +134,8 @@ section p, li{
     font-size:1em;
     color:grey;
     text-align:right;
-    padding:none;
-    margin:none;
+    padding:0;
+    margin:0;
 }
 
 .recommendation {
