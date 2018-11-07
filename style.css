@@ -1,5 +1,15 @@
 body {
-    background-color:black;
+    background-image: url("media/bg.png");
+}
+
+a:link {
+    color:darkblue;
+    text-decoration:none;
+}
+
+a:visited {
+    color:darkblue;
+    text-decoration:none;
 }
 
 section{
@@ -102,10 +112,10 @@ section p, li{
 }
 
 .info{
-    width:50%;
+    width:35%;
     list-style: none;
     margin:auto;
-    
+    font-size: .75em;
 }
 
 .info li{
@@ -144,10 +154,9 @@ section p, li{
 }
 
 .recommendation li{
-    color:yellow;
-    background-color:grey;
+    color:orangered;
     width: 7.5em;
     padding:.1em;
-    text-align:center;
+    font-size: 2.75em;
     list-style-image: url('media/star.png');
 }
