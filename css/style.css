@@ -46,9 +46,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/*
+
 body {
-    background-image: url("media/bg.png");
+  background-image: url("bg.png");
+  background-repeat: repeat;
+  background-size: 100%;
 }
 
 a:link {
@@ -208,6 +210,5 @@ section p, li{
     width: 7.5em;
     padding:.1em;
     font-size: 2.75em;
-    list-style-image: url('media/star.png');
+    list-style-image: url('star.png');
 }
-*/
