@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+  v2.0 | 20110126
+  License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -16,36 +16,38 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
+
+/* Beginning of my CSS Code*/
 
 body {
   background-image: url("bg.png");
@@ -54,172 +56,172 @@ body {
 }
 
 a:link {
-    color:darkblue;
-    text-decoration:none;
+  color:darkblue;
+  text-decoration:none;
 }
 
 a:visited {
-    color:darkblue;
-    text-decoration:none;
+  color:darkblue;
+  text-decoration:none;
 }
 
 section{
-    background-color: lightgrey;
-    width:50%;
-    padding: 2em;
-    margin:auto;
-    border:.25em dashed darkmagenta;
+  background-color: lightgrey;
+  width:50%;
+  padding: 2em;
+  margin:auto;
+  border:.25em dashed darkmagenta;
 }
 
 section h2{
-    font-size:3.5em;
-    font-weight: 800;
-    color:maroon;
+  font-size:3.5em;
+  font-weight: 800;
+  color:maroon;
 }
 
 section h3{
-    font-size:2.5em;
-    font-weight: 800;
-    color:maroon;
+  font-size:2.5em;
+  font-weight: 800;
+  color:maroon;
 }
 
 section p, li{
-    color:crimson;
-    font-size:1.5em;
-    text-align:justify;
+  color:crimson;
+  font-size:1.5em;
+  text-align:justify;
 }
 
 .nav {
-    margin:auto auto;
-    background-color: black;
-    border: .25em solid black;
-    text-align:center;
+  margin:auto auto;
+  background-color: black;
+  border: .25em solid black;
+  text-align:center;
 }
 
 .nav li{
-    display: inline;
+  display: inline;
 }
 
 .nav a{
-    font-weight: 900;
-    font-size: 1.5em;
-    padding: 0 7.5%;
-    border: solid black;
-    background-color: skyblue;
-    color: darkblue;
+  font-weight: 900;
+  font-size: 1.5em;
+  padding: 0 7.5%;
+  border: solid black;
+  background-color: skyblue;
+  color: darkblue;
 }
 
 .nav a:hover{
-    background-color:darkmagenta;
-    color:violet;
+  background-color:darkmagenta;
+  color:violet;
 }
 
 .nav a:active{
-    background-color:violet;
-    color:darkmagenta;
+  background-color:violet;
+  color:darkmagenta;
 }
 
 .nav .current{
-    background-color:darkblue;
-    color:skyblue;
+  background-color:darkblue;
+  color:skyblue;
 }
 
 .friend{
-    background-color: grey;
-    width: 400px;
-    padding: 1em 2em;
-    margin:auto;
-    border: .5em solid black;
+  background-color: grey;
+  width: 400px;
+  padding: 1em 2em;
+  margin:auto;
+  border: .5em solid black;
 }
 
 .friend h3{
-    font-size:2em;
-    text-align: center;
-    color: navy;
- }
+  font-size:2em;
+  text-align: center;
+  color: navy;
+}
 
- .friend p{
-    font-size:1.25em;
-    text-align: justify;
-    color: lightskyblue;
- }
+.friend p{
+  font-size:1.25em;
+  text-align: justify;
+  color: lightskyblue;
+}
 
 .friendpic{
-    display: block;
-    height:auto;
-    width:100%;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  height:auto;
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .protrait{
-    width:60%;
-    margin-left:20%;
-    margin-right:20%;
-    margin-top:0;
-    padding: .25em;
-    background-color: black;
+  width:60%;
+  margin-left:20%;
+  margin-right:20%;
+  margin-top:0;
+  padding: .25em;
+  background-color: black;
 }
 
 .name{
-    text-align:center;
-    font-size: 3.5em;
-    font-family: fantasy italic;
-    color:darkgreen;
-    width:40%;
-    margin-left:30%;
-    margin-right:30%;
-    background-color: grey;
-    border:2px solid black;
-    padding: .25em;
+  text-align:center;
+  font-size: 3.5em;
+  font-family: fantasy italic;
+  color:darkgreen;
+  width:40%;
+  margin-left:30%;
+  margin-right:30%;
+  background-color: grey;
+  border:2px solid black;
+  padding: .25em;
 }
 
 .info{
-    width:35%;
-    list-style: none;
-    margin:auto;
-    font-size: .75em;
+  width:35%;
+  list-style: none;
+  margin:auto;
+  font-size: .75em;
 }
 
 .info li{
-    color:greenyellow;
-    background-color: grey;
-    padding: .5em;
+  color:greenyellow;
+  background-color: grey;
+  padding: .5em;
 }
 
 .nested {
-    color:blue;
-    font-size:.5em;
-    list-style-type: circle;
+  color:blue;
+  font-size:.5em;
+  list-style-type: circle;
 }
 
 .vid  {
-    width:100%;
-    border:.2em solid yellow;
+  width:100%;
+  border:.2em solid yellow;
 }
 
 .hobbyimg {
-    width:100%;
-    border:.2em solid black;
+  width:100%;
+  border:.2em solid black;
 }
 
 .smalltext {
-    font-size:1em;
-    color:grey;
-    text-align:right;
-    padding:0;
-    margin:0;
+  font-size:1em;
+  color:grey;
+  text-align:right;
+  padding:0;
+  margin:0;
 }
 
 .recommendation {
-    margin-left:4em;
-    width:15em;
+  margin-left:4em;
+  width:15em;
 }
 
 .recommendation li{
-    color:orangered;
-    width: 7.5em;
-    padding:.1em;
-    font-size: 2.75em;
-    list-style-image: url('star.png');
+  color:orangered;
+  width: 7.5em;
+  padding:.1em;
+  font-size: 2.75em;
+  list-style-image: url('star.png');
 }
