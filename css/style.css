@@ -90,28 +90,24 @@ section p, li{
 }
 
 .nav {
-    list-style-type: none;
-    float: right;
-    position: fixed;
-    top: 5em;
-    left: 85%;
-    width: 15%;
-    padding:0;
+    margin:auto auto;
+    background-color: black;
+    border: .25em solid black;
+    text-align:center;
 }
 
 .nav li{
-    background-color: skyblue;
-    padding: 1em 1.5em;
-    border: .25em solid navy;
-    width: 6em;
-    text-align:center;
     display: inline;
 }
 
 .nav a{
     font-weight: 900;
     font-size: 1.5em;
+    padding: 0 7.5%;
+    border: solid black;
+    background-color: skyblue;
 }
+
 
 .friend{
     background-color: grey;
