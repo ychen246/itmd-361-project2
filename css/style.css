@@ -106,8 +106,13 @@ section p, li{
     padding: 0 7.5%;
     border: solid black;
     background-color: skyblue;
+    color: darkblue;
 }
 
+.nav a:hover{
+    background-color:darkblue;
+    color:skyblue;
+}
 
 .friend{
     background-color: grey;
