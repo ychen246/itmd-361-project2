@@ -95,6 +95,7 @@ section p{
 
 section li{ 
   margin-left:1.5em;
+  margin-top:.25em;
   margin-bottom:.25em;
   font-size:1.5em;
 }
