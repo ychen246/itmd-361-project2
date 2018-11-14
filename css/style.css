@@ -119,6 +119,11 @@ section p, li{
     color:darkmagenta;
 }
 
+.nav .current{
+    background-color:darkblue;
+    color:skyblue;
+}
+
 .friend{
     background-color: grey;
     width: 400px;
